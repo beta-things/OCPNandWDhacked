@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{40BD64AC-295B-3888-8158-84A0595FA039}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ocpn_draw_pi</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw_pi.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw_pi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw_pi.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw_pi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw_pi.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw_pi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw_pi.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw_pi</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;HAVE_SNPRINTF;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;ocpnUSE_GL;WXUSINGDLL;UNICODE;_UNICODE;USE_S57;OD_JSON_SCHEMA_VALIDATOR;ODraw_USE_SVG;ODraw_USE_MUI;TIXML_USE_STL;CMAKE_INTDIR="Debug";ocpn_draw_pi_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;HAVE_SNPRINTF;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;ocpnUSE_GL;WXUSINGDLL;UNICODE;_UNICODE;USE_S57;OD_JSON_SCHEMA_VALIDATOR;ODraw_USE_SVG;ODraw_USE_MUI;TIXML_USE_STL;CMAKE_INTDIR=\"Debug\";ocpn_draw_pi_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31ud.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31ud_core.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31ud_net.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31ud_xml.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31ud_html.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31ud_adv.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31ud_gl.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxpngd.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxtiffd.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxjpegd.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxzlibd.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxregexud.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxexpatd.lib;opengl32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31ud.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31ud_core.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31ud_net.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31ud_xml.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31ud_html.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31ud_adv.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31ud_gl.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxpngd.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxtiffd.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxjpegd.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxzlibd.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxregexud.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxexpatd.lib;opengl32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;lib\Debug\GLU.lib;gdiplus.lib;opencpn.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/Debug/ocpn_draw_pi.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/Debug/ocpn_draw_pi.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;ocpnUSE_GL;WXUSINGDLL;UNICODE;_UNICODE;USE_S57;OD_JSON_SCHEMA_VALIDATOR;ODraw_USE_SVG;ODraw_USE_MUI;TIXML_USE_STL;CMAKE_INTDIR="Release";ocpn_draw_pi_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;ocpnUSE_GL;WXUSINGDLL;UNICODE;_UNICODE;USE_S57;OD_JSON_SCHEMA_VALIDATOR;ODraw_USE_SVG;ODraw_USE_MUI;TIXML_USE_STL;CMAKE_INTDIR=\"Release\";ocpn_draw_pi_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_core.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u_net.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u_xml.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_html.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_adv.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_gl.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxpng.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxtiff.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxjpeg.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxzlib.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxregexu.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxexpat.lib;opengl32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_core.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u_net.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u_xml.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_html.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_adv.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_gl.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxpng.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxtiff.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxjpeg.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxzlib.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxregexu.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxexpat.lib;opengl32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;lib\Release\GLU.lib;gdiplus.lib;opencpn.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/Release/ocpn_draw_pi.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/Release/ocpn_draw_pi.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;ocpnUSE_GL;WXUSINGDLL;UNICODE;_UNICODE;USE_S57;OD_JSON_SCHEMA_VALIDATOR;ODraw_USE_SVG;ODraw_USE_MUI;TIXML_USE_STL;CMAKE_INTDIR="MinSizeRel";ocpn_draw_pi_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;ocpnUSE_GL;WXUSINGDLL;UNICODE;_UNICODE;USE_S57;OD_JSON_SCHEMA_VALIDATOR;ODraw_USE_SVG;ODraw_USE_MUI;TIXML_USE_STL;CMAKE_INTDIR=\"MinSizeRel\";ocpn_draw_pi_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_core.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u_net.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u_xml.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_html.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_adv.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_gl.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxpng.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxtiff.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxjpeg.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxzlib.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxregexu.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxexpat.lib;opengl32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_core.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u_net.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u_xml.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_html.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_adv.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_gl.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxpng.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxtiff.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxjpeg.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxzlib.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxregexu.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxexpat.lib;opengl32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;lib\MinSizeRel\GLU.lib;gdiplus.lib;opencpn.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/MinSizeRel/ocpn_draw_pi.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/MinSizeRel/ocpn_draw_pi.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;ocpnUSE_GL;WXUSINGDLL;UNICODE;_UNICODE;USE_S57;OD_JSON_SCHEMA_VALIDATOR;ODraw_USE_SVG;ODraw_USE_MUI;TIXML_USE_STL;CMAKE_INTDIR="RelWithDebInfo";ocpn_draw_pi_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_SNPRINTF;__MSVC__;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_DEPRECATE;ocpnUSE_GL;WXUSINGDLL;UNICODE;_UNICODE;USE_S57;OD_JSON_SCHEMA_VALIDATOR;ODraw_USE_SVG;ODraw_USE_MUI;TIXML_USE_STL;CMAKE_INTDIR=\"RelWithDebInfo\";ocpn_draw_pi_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_core.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u_net.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u_xml.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_html.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_adv.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_gl.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxpng.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxtiff.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxjpeg.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxzlib.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxregexu.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxexpat.lib;opengl32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_core.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u_net.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxbase31u_xml.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_html.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_adv.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxmsw31u_gl.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxpng.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxtiff.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxjpeg.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxzlib.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxregexu.lib;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\wxexpat.lib;opengl32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;lib\RelWithDebInfo\GLU.lib;gdiplus.lib;opencpn.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/RelWithDebInfo/ocpn_draw_pi.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/RelWithDebInfo/ocpn_draw_pi.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/Documents/ocpn_draw_pi-master_1.6 -BC:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build --check-stamp-file C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeSystem.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginConfigure.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginInstall.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginLocalization.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginPackage.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\version.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\wxWTranslateCatalog.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\POTFILES.in.test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/Documents/ocpn_draw_pi-master_1.6 -BC:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build --check-stamp-file C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeSystem.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginConfigure.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginInstall.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginLocalization.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginPackage.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\version.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\wxWTranslateCatalog.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\POTFILES.in.test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/Documents/ocpn_draw_pi-master_1.6 -BC:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build --check-stamp-file C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeSystem.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginConfigure.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginInstall.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginLocalization.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginPackage.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\version.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\wxWTranslateCatalog.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\POTFILES.in.test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/Documents/ocpn_draw_pi-master_1.6 -BC:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build --check-stamp-file C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeSystem.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginConfigure.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginInstall.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginLocalization.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginPackage.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\version.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\wxWTranslateCatalog.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\POTFILES.in.test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\Boundary.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\BoundaryCSVImport.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\BoundaryMan.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\BoundaryProp.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\BoundaryPoint.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\BoundaryPointCSVImport.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\DR.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\DRProp.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\EBL.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\EBLProp.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\GZ.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\GZMan.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\GZProp.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ocpn_draw_pi.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODAPI.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODConfig.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODdc.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODDRDialogDef.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODDRDialogImpl.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODEventHandler.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODicons.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODIconCombo.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODJSON.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODLayer.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODLinkPropertiesDialogDef.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODLinkPropertiesDialogImpl.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODMarkIcon.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODNavObjectChanges.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODNewODPointDialogDef.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODNewODPointDialogImpl.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPath.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPathPropertiesDialogDef.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPathPropertiesDialogImpl.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPoint.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPointPropertiesDialog.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPointPropertiesImpl.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPositionParser.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPropertiesDialogDef.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPropertiesDialogImpl.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODRolloverWin.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODSelect.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODToolbarDef.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODToolbarImpl.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODUtils.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PathMan.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PathAndPointManagerDialogDef.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PathAndPointManagerDialogImpl.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PIL.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PILProp.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PILPropertiesDialogDef.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PILPropertiesDialogImpl.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PointMan.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\TextPoint.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\TextPointCSVImport.cpp" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ocpn_draw_pi.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\Boundary.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\BoundaryCSVImport.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\BoundaryMan.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\BoundaryProp.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\BoundaryPoint.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\BoundaryPointCSVImport.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\DR.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\DRProp.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\EBL.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\EBLProp.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\globals.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\GZ.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\GZMan.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\GZProp.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PointMan.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODAPI.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODConfig.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODdc.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODDRDialogDef.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODDRDialogImpl.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODEventHandler.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODicons.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODIconCombo.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODJSON.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODJSONSchemas.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODLayer.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODLinkPropertiesDialogDef.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODLinkPropertiesDialogImpl.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODMarkIcon.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODNavObjectChanges.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODNewODPointDialogDef.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODNewODPointDialogImpl.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPath.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPathPropertiesDialogDef.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPathPropertiesDialogImpl.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPoint.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPointPropertiesDialog.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPointPropertiesImpl.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPositionParser.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPropertiesDialogDef.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPropertiesDialogImpl.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODRolloverWin.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODSelect.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODToolbarDef.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODToolbarImpl.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODUtils.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODvector2D.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PathMan.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PathAndPointManagerDialogDef.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PathAndPointManagerDialogImpl.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PIL.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PILPropertiesDialogDef.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PILPropertiesDialogImpl.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PILProp.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\TextPoint.h" />
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\TextPointCSVImport.h" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bbox.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\cutil.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\geodesic.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\georef.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\Hyperlink.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\SelectItem.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\TexFont.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\wxJSON\jsonreader.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\wxJSON\jsonval.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\wxJSON\jsonwriter.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\clipper.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\pugixml.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\json-schema-validator\json-schema-draft7.json.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\json-schema-validator\json-uri.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\json-schema-validator\json-validator.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml\tinyxmlerror.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\ZERO_CHECK.vcxproj">
+      <Project>{D92FE9F3-4E4F-3CB0-B343-A411604DD276}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\ocpnsrc\glu\GLU_static.vcxproj">
+      <Project>{394EA135-84DD-34BE-A3D0-A1A76B340C12}</Project>
+      <Name>GLU_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\ocpn_draw-i18n.vcxproj">
+      <Project>{52A6A7E1-62B4-3EF2-AE99-60616F90078A}</Project>
+      <Name>ocpn_draw-i18n</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,40 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindGettext.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindwxWidgets.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/UsewxWidgets.cmake
+C:/Program Files/CMake/share/cmake-3.19/Templates/CPackConfig.cmake.in
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/CMakeLists.txt
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/VERSION.cmake
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/3.19.3/CMakeCCompiler.cmake
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/3.19.3/CMakeCXXCompiler.cmake
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/3.19.3/CMakeRCCompiler.cmake
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/3.19.3/CMakeSystem.cmake
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/cmake/PluginConfigure.cmake
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/cmake/PluginInstall.cmake
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/cmake/PluginJSON.cmake
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/cmake/PluginLocalization.cmake
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/cmake/PluginNMEA.cmake
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/cmake/PluginPackage.cmake
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/cmake/version.h.in

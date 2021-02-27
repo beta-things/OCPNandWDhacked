@@ -1,0 +1,1903 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{246E0EED-06CC-3556-B2B3-5E9BDDAB4363}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ocpn_draw-po-update</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bitmaps;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\lz4;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\GL;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude\wxcurl;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\glu\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpninclude;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\mygdal;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extinclude\json-schema-validator;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\ar_SA.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [ar_SA]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ar_SA.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ar_SA.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ar_SA.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [ar_SA]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ar_SA.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ar_SA.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ar_SA.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [ar_SA]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ar_SA.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ar_SA.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ar_SA.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [ar_SA]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ar_SA.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ar_SA.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ar_SA.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\ca_ES.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [ca_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ca_ES.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ca_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ca_ES.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [ca_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ca_ES.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ca_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ca_ES.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [ca_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ca_ES.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ca_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ca_ES.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [ca_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ca_ES.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ca_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ca_ES.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\cs_CZ.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [cs_CZ]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/cs_CZ.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\cs_CZ.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\cs_CZ.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [cs_CZ]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/cs_CZ.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\cs_CZ.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\cs_CZ.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [cs_CZ]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/cs_CZ.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\cs_CZ.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\cs_CZ.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [cs_CZ]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/cs_CZ.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\cs_CZ.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\cs_CZ.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\da_DK.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [da_DK]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/da_DK.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\da_DK.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\da_DK.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [da_DK]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/da_DK.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\da_DK.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\da_DK.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [da_DK]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/da_DK.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\da_DK.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\da_DK.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [da_DK]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/da_DK.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\da_DK.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\da_DK.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\de_DE.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [de_DE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/de_DE.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\de_DE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\de_DE.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [de_DE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/de_DE.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\de_DE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\de_DE.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [de_DE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/de_DE.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\de_DE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\de_DE.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [de_DE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/de_DE.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\de_DE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\de_DE.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\el_GR.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [el_GR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/el_GR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\el_GR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\el_GR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [el_GR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/el_GR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\el_GR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\el_GR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [el_GR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/el_GR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\el_GR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\el_GR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [el_GR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/el_GR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\el_GR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\el_GR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\es_ES.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [es_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/es_ES.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\es_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\es_ES.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [es_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/es_ES.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\es_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\es_ES.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [es_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/es_ES.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\es_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\es_ES.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [es_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/es_ES.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\es_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\es_ES.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\et_EE.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [et_EE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/et_EE.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\et_EE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\et_EE.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [et_EE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/et_EE.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\et_EE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\et_EE.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [et_EE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/et_EE.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\et_EE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\et_EE.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [et_EE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/et_EE.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\et_EE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\et_EE.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\fi_FI.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [fi_FI]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/fi_FI.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fi_FI.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fi_FI.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [fi_FI]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/fi_FI.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fi_FI.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fi_FI.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [fi_FI]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/fi_FI.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fi_FI.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fi_FI.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [fi_FI]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/fi_FI.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fi_FI.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fi_FI.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\fil_PH.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [fil_PH]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/fil_PH.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fil_PH.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fil_PH.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [fil_PH]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/fil_PH.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fil_PH.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fil_PH.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [fil_PH]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/fil_PH.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fil_PH.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fil_PH.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [fil_PH]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/fil_PH.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fil_PH.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fil_PH.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\fr_FR.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [fr_FR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/fr_FR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fr_FR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fr_FR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [fr_FR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/fr_FR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fr_FR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fr_FR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [fr_FR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/fr_FR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fr_FR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fr_FR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [fr_FR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/fr_FR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fr_FR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fr_FR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\gl_ES.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [gl_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/gl_ES.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\gl_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\gl_ES.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [gl_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/gl_ES.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\gl_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\gl_ES.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [gl_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/gl_ES.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\gl_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\gl_ES.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [gl_ES]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/gl_ES.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\gl_ES.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\gl_ES.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\hi_IN.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [hi_IN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/hi_IN.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hi_IN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hi_IN.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [hi_IN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/hi_IN.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hi_IN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hi_IN.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [hi_IN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/hi_IN.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hi_IN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hi_IN.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [hi_IN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/hi_IN.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hi_IN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hi_IN.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\hu_HU.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [hu_HU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/hu_HU.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hu_HU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hu_HU.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [hu_HU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/hu_HU.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hu_HU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hu_HU.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [hu_HU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/hu_HU.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hu_HU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hu_HU.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [hu_HU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/hu_HU.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hu_HU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hu_HU.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\id_ID.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [id_ID]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/id_ID.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\id_ID.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\id_ID.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [id_ID]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/id_ID.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\id_ID.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\id_ID.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [id_ID]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/id_ID.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\id_ID.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\id_ID.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [id_ID]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/id_ID.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\id_ID.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\id_ID.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\it_IT.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [it_IT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/it_IT.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\it_IT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\it_IT.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [it_IT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/it_IT.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\it_IT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\it_IT.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [it_IT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/it_IT.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\it_IT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\it_IT.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [it_IT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/it_IT.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\it_IT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\it_IT.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\ja_JP.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [ja_JP]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ja_JP.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ja_JP.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ja_JP.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [ja_JP]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ja_JP.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ja_JP.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ja_JP.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [ja_JP]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ja_JP.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ja_JP.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ja_JP.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [ja_JP]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ja_JP.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ja_JP.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ja_JP.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\mr_IN.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [mr_IN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/mr_IN.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\mr_IN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\mr_IN.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [mr_IN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/mr_IN.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\mr_IN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\mr_IN.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [mr_IN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/mr_IN.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\mr_IN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\mr_IN.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [mr_IN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/mr_IN.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\mr_IN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\mr_IN.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\nb_NO.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [nb_NO]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/nb_NO.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nb_NO.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nb_NO.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [nb_NO]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/nb_NO.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nb_NO.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nb_NO.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [nb_NO]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/nb_NO.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nb_NO.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nb_NO.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [nb_NO]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/nb_NO.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nb_NO.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nb_NO.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\nl_NL.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [nl_NL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/nl_NL.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nl_NL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nl_NL.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [nl_NL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/nl_NL.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nl_NL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nl_NL.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [nl_NL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/nl_NL.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nl_NL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nl_NL.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [nl_NL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/nl_NL.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nl_NL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nl_NL.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\pl_PL.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [pl_PL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/pl_PL.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pl_PL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pl_PL.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [pl_PL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/pl_PL.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pl_PL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pl_PL.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [pl_PL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/pl_PL.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pl_PL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pl_PL.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [pl_PL]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/pl_PL.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pl_PL.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pl_PL.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\pt_BR.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [pt_BR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/pt_BR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_BR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_BR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [pt_BR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/pt_BR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_BR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_BR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [pt_BR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/pt_BR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_BR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_BR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [pt_BR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/pt_BR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_BR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_BR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\pt_PT.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [pt_PT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/pt_PT.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_PT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_PT.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [pt_PT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/pt_PT.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_PT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_PT.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [pt_PT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/pt_PT.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_PT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_PT.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [pt_PT]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/pt_PT.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_PT.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_PT.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\ro_RO.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [ro_RO]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ro_RO.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ro_RO.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ro_RO.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [ro_RO]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ro_RO.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ro_RO.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ro_RO.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [ro_RO]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ro_RO.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ro_RO.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ro_RO.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [ro_RO]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ro_RO.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ro_RO.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ro_RO.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\ru_RU.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [ru_RU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ru_RU.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ru_RU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ru_RU.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [ru_RU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ru_RU.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ru_RU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ru_RU.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [ru_RU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ru_RU.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ru_RU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ru_RU.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [ru_RU]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ru_RU.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ru_RU.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ru_RU.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\sv_SE.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [sv_SE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/sv_SE.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\sv_SE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\sv_SE.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [sv_SE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/sv_SE.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\sv_SE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\sv_SE.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [sv_SE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/sv_SE.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\sv_SE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\sv_SE.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [sv_SE]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/sv_SE.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\sv_SE.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\sv_SE.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\th_TH.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [th_TH]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/th_TH.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\th_TH.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\th_TH.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [th_TH]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/th_TH.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\th_TH.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\th_TH.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [th_TH]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/th_TH.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\th_TH.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\th_TH.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [th_TH]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/th_TH.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\th_TH.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\th_TH.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\tr_TR.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [tr_TR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/tr_TR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\tr_TR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\tr_TR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [tr_TR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/tr_TR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\tr_TR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\tr_TR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [tr_TR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/tr_TR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\tr_TR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\tr_TR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [tr_TR]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/tr_TR.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\tr_TR.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\tr_TR.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\vi_VN.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [vi_VN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/vi_VN.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\vi_VN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\vi_VN.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [vi_VN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/vi_VN.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\vi_VN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\vi_VN.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [vi_VN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/vi_VN.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\vi_VN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\vi_VN.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [vi_VN]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/vi_VN.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\vi_VN.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\vi_VN.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\zh_TW.po.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ocpn_draw-po-update [zh_TW]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/zh_TW.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\zh_TW.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\zh_TW.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ocpn_draw-po-update [zh_TW]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/zh_TW.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\zh_TW.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\zh_TW.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ocpn_draw-po-update [zh_TW]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/zh_TW.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\zh_TW.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\zh_TW.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ocpn_draw-po-update [zh_TW]: Updated po file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\Poedit\GettextTools\bin\msgmerge.exe" --width=80 --strict --quiet --update --backup=none --no-location -s C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/zh_TW.po C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/po/ocpn_draw_pi.pot
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\zh_TW.po;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\zh_TW.po.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\486e1023575f0b66c60330542ab14ded\ocpn_draw-po-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">[ocpn_draw_pi]-po-update: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ar_SA.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ca_ES.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\cs_CZ.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\da_DK.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\de_DE.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\el_GR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\es_ES.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\et_EE.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fi_FI.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fil_PH.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fr_FR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\gl_ES.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hi_IN.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hu_HU.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\id_ID.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\it_IT.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ja_JP.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\mr_IN.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nb_NO.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nl_NL.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pl_PL.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_BR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_PT.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ro_RO.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ru_RU.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\sv_SE.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\th_TH.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\tr_TR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\vi_VN.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\zh_TW.po.dummy;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\ocpn_draw-po-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">[ocpn_draw_pi]-po-update: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ar_SA.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ca_ES.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\cs_CZ.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\da_DK.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\de_DE.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\el_GR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\es_ES.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\et_EE.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fi_FI.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fil_PH.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fr_FR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\gl_ES.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hi_IN.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hu_HU.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\id_ID.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\it_IT.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ja_JP.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\mr_IN.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nb_NO.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nl_NL.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pl_PL.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_BR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_PT.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ro_RO.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ru_RU.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\sv_SE.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\th_TH.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\tr_TR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\vi_VN.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\zh_TW.po.dummy;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\ocpn_draw-po-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">[ocpn_draw_pi]-po-update: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ar_SA.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ca_ES.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\cs_CZ.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\da_DK.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\de_DE.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\el_GR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\es_ES.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\et_EE.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fi_FI.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fil_PH.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fr_FR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\gl_ES.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hi_IN.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hu_HU.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\id_ID.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\it_IT.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ja_JP.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\mr_IN.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nb_NO.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nl_NL.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pl_PL.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_BR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_PT.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ro_RO.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ru_RU.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\sv_SE.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\th_TH.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\tr_TR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\vi_VN.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\zh_TW.po.dummy;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\ocpn_draw-po-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">[ocpn_draw_pi]-po-update: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ocpn_draw_pi.pot;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ar_SA.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ca_ES.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\cs_CZ.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\da_DK.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\de_DE.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\el_GR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\es_ES.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\et_EE.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fi_FI.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fil_PH.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\fr_FR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\gl_ES.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hi_IN.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\hu_HU.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\id_ID.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\it_IT.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ja_JP.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\mr_IN.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nb_NO.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\nl_NL.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pl_PL.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_BR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\pt_PT.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ro_RO.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\ru_RU.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\sv_SE.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\th_TH.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\tr_TR.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\vi_VN.po.dummy;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\zh_TW.po.dummy;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\ocpn_draw-po-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/Documents/ocpn_draw_pi-master_1.6 -BC:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build --check-stamp-file C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeSystem.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginConfigure.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginInstall.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginLocalization.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginPackage.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\version.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\wxWTranslateCatalog.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\POTFILES.in.test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/Documents/ocpn_draw_pi-master_1.6 -BC:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build --check-stamp-file C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeSystem.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginConfigure.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginInstall.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginLocalization.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginPackage.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\version.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\wxWTranslateCatalog.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\POTFILES.in.test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/Documents/ocpn_draw_pi-master_1.6 -BC:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build --check-stamp-file C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeSystem.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginConfigure.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginInstall.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginLocalization.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginPackage.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\version.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\wxWTranslateCatalog.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\POTFILES.in.test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/Documents/ocpn_draw_pi-master_1.6 -BC:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build --check-stamp-file C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\3.19.3\CMakeSystem.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginConfigure.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginInstall.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginLocalization.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\PluginPackage.cmake;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\version.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\cmake\wxWTranslateCatalog.h.in;C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\po\POTFILES.in.test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\ocpn_draw-po-update">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\ZERO_CHECK.vcxproj">
+      <Project>{D92FE9F3-4E4F-3CB0-B343-A411604DD276}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

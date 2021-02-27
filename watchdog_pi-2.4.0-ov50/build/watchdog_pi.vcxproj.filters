@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\watchdog_pi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\WatchdogDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\WatchdogPropertiesDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\ConfigurationDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\NewAlarmDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\EditAlarmDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\Alarm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\signalk_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\WatchdogUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\wddc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\TexFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\jsoncpp\json_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\jsoncpp\json_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\jsoncpp\json_writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\latlong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\long.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\nmea0183.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\response.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\rmb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\sentence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\talkerid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\rmc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\hexvalue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\lat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\expid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\wpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\rte.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\hdt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\hdg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\hdm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\gll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\vtg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\gga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\gsv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\dbt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\dpt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\mtw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\mwv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\vhw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\vwr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\zda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\rsa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\mwd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\vwt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\mta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\vlw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\mda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183\xdr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\tinyxml\tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\tinyxml\tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\tinyxml\tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\ODAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C2CBBEA1-021D-3785-BD41-8CEF6F4AA9E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{82A9A757-683C-36E7-ADBC-1E76162F7B3A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

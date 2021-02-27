@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\ar_SA.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\ca_ES.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\cs_CZ.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\da_DK.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\de_DE.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\el_GR.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\es_ES.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\et_EE.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\fi_FI.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\fil_PH.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\fr_FR.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\gl_ES.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\hi_IN.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\hu_HU.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\id_ID.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\it_IT.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\ja_JP.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\mr_IN.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\nb_NO.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\nl_NL.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\pl_PL.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\pt_BR.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\pt_PT.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\ro_RO.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\ru_RU.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\sv_SE.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\th_TH.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\tr_TR.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\vi_VN.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\91b9b03f47ff95f6eb826a799a376299\zh_TW.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\bcf95c6c7d6d22d8ffc5cab85d104a39\watchdog-po-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\watchdog-po-update" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{00F54131-06C1-39F2-B579-1B561A220C5F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

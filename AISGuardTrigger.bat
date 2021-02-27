@@ -1,0 +1,1 @@
+Python C:\Users\savary_cam\Desktop\camera-commander-master\main.py %1

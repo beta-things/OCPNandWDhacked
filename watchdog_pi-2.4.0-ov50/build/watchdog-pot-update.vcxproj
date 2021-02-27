@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C933555F-B9E7-3780-8867-B864BFF087D1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>watchdog-pot-update</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\tinyxml;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\include;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\jsoncpp;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\tinyxml;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\include;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\jsoncpp;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\tinyxml;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\include;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\jsoncpp;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\tinyxml;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\nmea0183;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\include;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\src\jsoncpp;C:\Users\Public\Documents\wxWidgets\lib\vc_dll\mswu;C:\Users\Public\Documents\wxWidgets\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\195b872c570552131fd7571645d52042\watchdog_pi.pot.dummy.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">watchdog-pot-update [watchdog_pi]: Generated pot file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Poedit\GettextTools\bin\xgettext.exe" --force-po --package-name=watchdog_pi --package-version="2.4.0" --output=po/watchdog_pi.pot --keyword=_ --width=80 --files-from=C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/po/POTFILES.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\po\POTFILES.in;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\po\watchdog_pi.pot;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\po\watchdog_pi.pot.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">watchdog-pot-update [watchdog_pi]: Generated pot file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Poedit\GettextTools\bin\xgettext.exe" --force-po --package-name=watchdog_pi --package-version="2.4.0" --output=po/watchdog_pi.pot --keyword=_ --width=80 --files-from=C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/po/POTFILES.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\po\POTFILES.in;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\po\watchdog_pi.pot;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\po\watchdog_pi.pot.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">watchdog-pot-update [watchdog_pi]: Generated pot file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Poedit\GettextTools\bin\xgettext.exe" --force-po --package-name=watchdog_pi --package-version="2.4.0" --output=po/watchdog_pi.pot --keyword=_ --width=80 --files-from=C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/po/POTFILES.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\po\POTFILES.in;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\po\watchdog_pi.pot;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\po\watchdog_pi.pot.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">watchdog-pot-update [watchdog_pi]: Generated pot file.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Poedit\GettextTools\bin\xgettext.exe" --force-po --package-name=watchdog_pi --package-version="2.4.0" --output=po/watchdog_pi.pot --keyword=_ --width=80 --files-from=C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/po/POTFILES.in
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\po\POTFILES.in;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\po\watchdog_pi.pot;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\po\watchdog_pi.pot.dummy</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\bcf95c6c7d6d22d8ffc5cab85d104a39\watchdog-pot-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">[watchdog_pi]-pot-update: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\po\watchdog_pi.pot.dummy;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\watchdog-pot-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">[watchdog_pi]-pot-update: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\po\watchdog_pi.pot.dummy;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\watchdog-pot-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">[watchdog_pi]-pot-update: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\po\watchdog_pi.pot.dummy;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\watchdog-pot-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">[watchdog_pi]-pot-update: Done.</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\po\watchdog_pi.pot.dummy;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\watchdog-pot-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/Documents/watchdog_pi-2.4.0-ov50 -BC:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build --check-stamp-file C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\VERSION.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeCCompiler.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeSystem.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginConfigure.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginInstall.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginJSON.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginLocalization.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginNMEA.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginPackage.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/Documents/watchdog_pi-2.4.0-ov50 -BC:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build --check-stamp-file C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\VERSION.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeCCompiler.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeSystem.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginConfigure.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginInstall.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginJSON.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginLocalization.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginNMEA.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginPackage.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/Documents/watchdog_pi-2.4.0-ov50 -BC:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build --check-stamp-file C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\VERSION.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeCCompiler.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeSystem.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginConfigure.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginInstall.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginJSON.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginLocalization.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginNMEA.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginPackage.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/Documents/watchdog_pi-2.4.0-ov50 -BC:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build --check-stamp-file C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindGettext.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindwxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\UsewxWidgets.cmake;C:\Program Files\CMake\share\cmake-3.19\Templates\CPackConfig.cmake.in;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\VERSION.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeCCompiler.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeCXXCompiler.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeRCCompiler.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\3.19.3\CMakeSystem.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginConfigure.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginInstall.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginJSON.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginLocalization.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginNMEA.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\PluginPackage.cmake;C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\cmake\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\CMakeFiles\watchdog-pot-update">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Public\Documents\watchdog_pi-2.4.0-ov50\build\ZERO_CHECK.vcxproj">
+      <Project>{DB2AC324-E860-3430-995D-5FE727D0BF86}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

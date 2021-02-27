@@ -1,0 +1,9 @@
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/watchdog_pi.dir
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/watchdog-pot-update.dir
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/watchdog-po-update.dir
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/watchdog-i18n.dir
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/codesign.dir
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/PACKAGE.dir
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/INSTALL.dir
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Public/Documents/watchdog_pi-2.4.0-ov50/build/CMakeFiles/ZERO_CHECK.dir

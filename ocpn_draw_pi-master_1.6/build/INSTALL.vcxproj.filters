@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\486e1023575f0b66c60330542ab14ded\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3BF262F9-7C13-3AC6-8530-FD4124B18D24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

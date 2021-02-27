@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\ar_SA.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\ca_ES.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\cs_CZ.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\da_DK.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\de_DE.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\el_GR.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\es_ES.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\et_EE.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\fi_FI.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\fil_PH.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\fr_FR.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\gl_ES.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\hi_IN.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\hu_HU.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\id_ID.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\it_IT.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\ja_JP.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\mr_IN.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\nb_NO.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\nl_NL.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\pl_PL.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\pt_BR.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\pt_PT.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\ro_RO.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\ru_RU.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\sv_SE.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\th_TH.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\tr_TR.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\vi_VN.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\b20831df6d521c2265f971b97e011710\zh_TW.po.dummy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\486e1023575f0b66c60330542ab14ded\ocpn_draw-po-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\build\CMakeFiles\ocpn_draw-po-update" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3BF262F9-7C13-3AC6-8530-FD4124B18D24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

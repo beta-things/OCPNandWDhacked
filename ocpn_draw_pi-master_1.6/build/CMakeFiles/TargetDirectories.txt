@@ -1,0 +1,12 @@
+C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/ocpn_draw_pi.dir
+C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/ocpn_draw-po-update.dir
+C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/ocpn_draw-pot-update.dir
+C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/PACKAGE.dir
+C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/ocpn_draw-i18n.dir
+C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/INSTALL.dir
+C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/ocpnsrc/glu/CMakeFiles/INSTALL.dir
+C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/ocpnsrc/glu/CMakeFiles/GLU_static.dir
+C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/ocpnsrc/glu/CMakeFiles/PACKAGE.dir
+C:/Users/Public/Documents/ocpn_draw_pi-master_1.6/build/ocpnsrc/glu/CMakeFiles/ALL_BUILD.dir

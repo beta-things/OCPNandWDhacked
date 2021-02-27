@@ -1,0 +1,13 @@
+#define PLUGIN_NAME ocpn_draw_pi
+#define PLUGIN_CATALOG_NAME wxS("opencpn-ocpn_draw_pi")
+#define PLUGIN_VERSION_MAJOR 1
+#define PLUGIN_VERSION_MINOR 6
+#define PLUGIN_VERSION_PATCH 34
+#define PLUGIN_VERSION_DATE "29/03/2020"
+#define OCPN_MIN_VERSION ov50
+// API version of OCPN to use
+#define OCPN_API_VERSION_MAJOR 1
+#define OCPN_API_VERSION_MINOR 16
+// OD API Version
+#define OD_API_VERSION_MAJOR 1
+#define OD_API_VERSION_MINOR 1

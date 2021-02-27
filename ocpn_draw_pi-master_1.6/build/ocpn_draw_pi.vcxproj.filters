@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\Boundary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\BoundaryCSVImport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\BoundaryMan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\BoundaryProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\BoundaryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\BoundaryPointCSVImport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\DR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\DRProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\EBL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\EBLProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\GZ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\GZMan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\GZProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ocpn_draw_pi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODdc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODDRDialogDef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODDRDialogImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODEventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODicons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODIconCombo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODJSON.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODLinkPropertiesDialogDef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODLinkPropertiesDialogImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODMarkIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODNavObjectChanges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODNewODPointDialogDef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODNewODPointDialogImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPathPropertiesDialogDef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPathPropertiesDialogImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPointPropertiesDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPointPropertiesImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPositionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPropertiesDialogDef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODPropertiesDialogImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODRolloverWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODSelect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODToolbarDef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODToolbarImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\ODUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PathMan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PathAndPointManagerDialogDef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PathAndPointManagerDialogImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PIL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PILProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PILPropertiesDialogDef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PILPropertiesDialogImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\PointMan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\TextPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\src\TextPointCSVImport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\bbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\cutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\geodesic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\georef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\Hyperlink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\SelectItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\TexFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\wxJSON\jsonreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\wxJSON\jsonval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\ocpnsrc\wxJSON\jsonwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\clipper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\pugixml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\json-schema-validator\json-schema-draft7.json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\json-schema-validator\json-uri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\json-schema-validator\json-validator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml\tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml\tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\extsrc\tinyxml\tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ocpn_draw_pi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\Boundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\BoundaryCSVImport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\BoundaryMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\BoundaryProp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\BoundaryPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\BoundaryPointCSVImport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\DR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\DRProp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\EBL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\EBLProp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\GZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\GZMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\GZProp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PointMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODdc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODDRDialogDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODDRDialogImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODEventHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODicons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODIconCombo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODJSON.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODJSONSchemas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODLinkPropertiesDialogDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODLinkPropertiesDialogImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODMarkIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODNavObjectChanges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODNewODPointDialogDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODNewODPointDialogImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPathPropertiesDialogDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPathPropertiesDialogImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPointPropertiesDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPointPropertiesImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPositionParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPropertiesDialogDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODPropertiesDialogImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODRolloverWin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODToolbarDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODToolbarImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\ODvector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PathMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PathAndPointManagerDialogDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PathAndPointManagerDialogImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PIL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PILPropertiesDialogDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PILPropertiesDialogImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\PILProp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\TextPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\include\TextPointCSVImport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\Documents\ocpn_draw_pi-master_1.6\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3B544BC8-E7EC-3066-BA17-86E03ECE2D20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ADA29F95-678E-3C42-A743-AE38B8A28A9F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
